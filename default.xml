@@ -12,7 +12,7 @@
 -->
 <manifest>
   <remote fetch="https://github.com/ruslo" name="polly"/>	
-  <remote fetch="." name="seL4"/>
+  <remote fetch="https://github.com/seL4" name="seL4"/>
   <remote fetch="../sel4proj" name="sel4proj"/>
   
   <default remote="seL4" revision="master"/>
