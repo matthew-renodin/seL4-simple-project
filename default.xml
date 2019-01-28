@@ -18,7 +18,7 @@
   <default remote="seL4" revision="master"/>
   <!-- added the following libraries to support camkes -->
   <project name="camkes-tool.git" path="tools/camkes" revision="master"/>
-  <project name="camkes-vm-linux.git" path="tools/camkes/vm-linux" revision="master"/>
+  <project name="camkes-vm-linux.git" remote="sel4proj" path="tools/camkes/vm-linux" revision="master"/>
   <project name="camkes-vm.git" path="tools/camkes/vm" revision="master"/>
   <project name="capdl.git" path="tools/camkes/capdl" revision="master"/>
   <project name="global-components.git"  remote="sel4proj" path="tools/camkes/global-components" revision="master"/>
